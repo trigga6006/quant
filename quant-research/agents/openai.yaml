@@ -1,0 +1,3 @@
+display_name: Quant Research
+short_description: Evidence-ledger quant dossiers
+default_prompt: Analyze this asset or market situation with a free-source, evidence-first quantitative research workflow. Create or refresh a local dossier, cite material claims, run reproducible quant analysis where data is available, and return a concise decision-support summary with artifact links.
