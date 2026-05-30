@@ -4,3 +4,4 @@ __pycache__/
 research/
 research-smoke/
 *.tmp
+.claude/

@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>/quant — Omni Impact</title>
+<!--
+  Social / OG card for the quant-research skill.
+  Source of truth for docs/brand/og.png (1280x640) and og@2x.png (2560x1280).
+  Fluid: fills the viewport, so the same markup renders crisp at GitHub's
+  1280x640 social-preview spec and the standard 1200x630 OG size.
+  Re-render: see docs/brand/README.md
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@500;700;800&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --salmon:#ff5d54;        /* brand accent — the slash only */
+    --up:#2fd39b;            /* market convention: green = up */
+    --up-soft:#5ce8ba;
+    --ink-dim:#86868c;
+    --hair:rgba(255,255,255,.12);
+    --disp:"Geist",-apple-system,sans-serif;
+    --mono:"Geist Mono",ui-monospace,monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:100%;height:100%;overflow:hidden;background:#040404}
+  .card{position:relative;width:100%;height:100%;overflow:hidden;color:#fff;
+    background:#040404;font-family:var(--disp)}
+
+  /* cold light from the right */
+  .light{position:absolute;inset:0;
+    background:
+      radial-gradient(42% 78% at 102% 44%, rgba(244,243,240,.26) 0%, rgba(244,243,240,.07) 38%, transparent 66%),
+      radial-gradient(22% 40% at 99% 42%, rgba(255,255,255,.38) 0%, transparent 60%),
+      linear-gradient(90deg,#040404 30%, #070707 62%, #0c0c0d 100%);}
+  /* terminal hairline columns, only in the light */
+  .cols{position:absolute;inset:0;
+    background-image:linear-gradient(90deg,rgba(255,255,255,.05) 1px,transparent 1px);
+    background-size:96px 100%;
+    -webkit-mask-image:radial-gradient(52% 90% at 100% 46%, #000 10%, transparent 72%);}
+  .grain{position:absolute;inset:0;opacity:.06;mix-blend-mode:overlay;pointer-events:none;
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='140' height='140'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");}
+
+  /* the curve */
+  .chart{position:absolute;inset:0}
+  .chart svg{display:block;width:100%;height:100%}
+  /* floating readout chip */
+  .chip{position:absolute;right:118px;top:120px;font-family:var(--mono);text-align:right}
+  .chip .v{font-size:34px;font-weight:500;letter-spacing:-.01em;color:#fff;line-height:1}
+  .chip .v b{color:var(--up);font-weight:500}
+  .chip .m{font-size:11px;letter-spacing:.22em;color:var(--ink-dim);margin-top:9px}
+
+  .pad{position:absolute;inset:0;padding:48px 72px;display:flex;flex-direction:column;z-index:3}
+
+  /* top metadata rule */
+  .meta{display:flex;justify-content:space-between;align-items:center;
+    font-family:var(--mono);font-size:11.5px;letter-spacing:.26em;text-transform:uppercase;
+    color:var(--ink-dim);padding-bottom:16px;border-bottom:1px solid var(--hair)}
+  .meta .r{color:#5e5e64}
+
+  /* hero */
+  .hero{margin-top:auto;margin-bottom:auto}
+  .h1{font-family:var(--disp);font-weight:800;font-size:212px;line-height:.80;
+    letter-spacing:-.05em;display:flex;align-items:baseline}
+  .h1 .sl{color:var(--salmon);font-weight:700;margin-right:6px;
+    text-shadow:0 0 50px rgba(255,93,84,.55)}
+  .h1 .q{color:#fff}
+  .sub{margin-top:30px;font-family:var(--mono);font-size:14px;font-weight:400;
+    letter-spacing:.30em;text-transform:uppercase;color:#9a9aa0}
+
+  /* bottom brand rule */
+  .foot{display:flex;justify-content:space-between;align-items:center;
+    padding-top:18px;border-top:1px solid var(--hair)}
+  .brand{display:flex;align-items:center;gap:13px}
+  .brand .logo{width:30px;height:30px;display:block;filter:saturate(1.15)}
+  .brand .txt{font-family:var(--mono);font-size:13px;letter-spacing:.30em;
+    text-transform:uppercase;color:#b7b7bd;font-weight:500}
+  .brand .txt b{color:#fff;font-weight:500}
+  .foot .tag{font-family:var(--mono);font-size:11.5px;letter-spacing:.22em;
+    text-transform:uppercase;color:#5e5e64}
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="light"></div>
+    <div class="cols"></div>
+
+    <svg class="chart" viewBox="0 0 1200 630" preserveAspectRatio="none">
+      <defs>
+        <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#2fd39b" stop-opacity=".16"/>
+          <stop offset="1" stop-color="#2fd39b" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="ln" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0" stop-color="#2fd39b" stop-opacity=".22"/>
+          <stop offset=".34" stop-color="#2fd39b" stop-opacity=".38"/>
+          <stop offset=".58" stop-color="#2fd39b" stop-opacity=".82"/>
+          <stop offset="1" stop-color="#5ce8ba"/>
+        </linearGradient>
+        <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+          <feGaussianBlur stdDeviation="5" result="b"/>
+          <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+        </filter>
+      </defs>
+      <path d="M-10,614 C170,600 300,584 440,524 C600,456 700,456 820,374 C940,292 1040,256 1160,150 L1200,140 L1200,630 L-10,630 Z" fill="url(#area)"/>
+      <path d="M-10,614 C170,600 300,584 440,524 C600,456 700,456 820,374 C940,292 1040,256 1160,150"
+            fill="none" stroke="url(#ln)" stroke-width="2.5" stroke-linecap="round" filter="url(#glow)"/>
+      <circle cx="1160" cy="150" r="5.5" fill="#fff"/>
+      <circle cx="1160" cy="150" r="14" fill="none" stroke="#2fd39b" stroke-opacity=".55" stroke-width="1.4"/>
+    </svg>
+
+    <div class="chip">
+      <div class="v">+<b>18.4%</b></div>
+      <div class="m">90D · σ 24.1 · SHARPE 1.32</div>
+    </div>
+
+    <div class="pad">
+      <div class="meta">
+        <span>Quant&nbsp;·&nbsp;Research Skill</span>
+        <span class="r">Free-source&nbsp;&nbsp;/&nbsp;&nbsp;Evidence-ledger&nbsp;&nbsp;/&nbsp;&nbsp;Reproducible</span>
+      </div>
+
+      <div class="hero">
+        <div class="h1"><span class="sl">/</span><span class="q">quant</span></div>
+        <div class="sub">Quantitative research, for your agent</div>
+      </div>
+
+      <div class="foot">
+        <div class="brand">
+          <svg class="logo" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M 196.52,99.98 C 196.52,46.71 152.83,1.63 99.48,1.63 H 98.56 C 63.42,1.63 37.98,18.76 20.77,43.31 C 9.12,60.21 3.48,77.89 3.48,100.51 C 3.48,151.93 47.02,198.23 97.61,198.23 H 99.16 C 151.91,198.23 196.52,154.55 196.52,99.98 Z M 98.36,147.41 C 71.71,147.41 52.39,125.18 52.39,100.26 C 52.39,73.43 74.39,48.29 101.04,51.81 C 126.03,52.96 147.31,73.92 147.31,100.08 C 147.31,125.28 127.07,147.41 98.36,147.41 Z" fill="url(#f0)"/>
+            <path d="M 101.61,1.66 C 66.27,0.61 42.09,15.71 23.04,39.79 C 11.81,54.74 6.31,70.73 6.31,91.81 C 6.31,132.79 41.91,166.39 80.12,166.39 C 114.61,166.39 147.41,141.01 147.41,103.03 L 147.16,103.16 C 145.97,126.15 126.06,146.93 98.36,147.34 C 71.71,147.74 52.39,125.51 52.39,100.59 C 52.39,70.05 76.18,33.75 119.02,33.75 C 157.19,33.75 193.37,65.79 193.37,110.08 C 193.37,126.01 187.32,142.79 178.19,157.01 C 190.72,140.14 196.52,123.08 196.52,100.01 C 196.52,47.58 155.51,3.16 101.61,1.66 Z" fill="url(#f1)"/>
+            <defs>
+              <linearGradient id="f0" x1="10" y1="18.8" x2="183.6" y2="181.5" gradientUnits="userSpaceOnUse"><stop stop-color="#3269C7"/><stop offset="0.49" stop-color="#244BC6"/><stop offset="1" stop-color="#56B6E7"/></linearGradient>
+              <linearGradient id="f1" x1="10" y1="18.8" x2="183.6" y2="181.5" gradientUnits="userSpaceOnUse"><stop stop-color="#3269C7"/><stop offset="0.49" stop-color="#4493D5"/><stop offset="1" stop-color="#56B6E7"/></linearGradient>
+            </defs>
+          </svg>
+          <div class="txt">Omni&nbsp;<b>Impact</b></div>
+        </div>
+        <div class="tag">skills / quant-research</div>
+      </div>
+    </div>
+
+    <div class="grain"></div>
+  </div>
+</body>
+</html>
