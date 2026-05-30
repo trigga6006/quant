@@ -18,6 +18,7 @@ Equities and ADRs:
 
 - SEC EDGAR filings and company investor relations pages.
 - Earnings releases, investor decks, annual reports, proxy statements, and 8-Ks.
+- Customer, supplier, and partnership evidence from both counterparties: press releases, filings, procurement portals, partner directories, app/cloud marketplaces, case studies, standards bodies, and conference presentations.
 - Exchange pages for listing, trading, and corporate-action context.
 - Free market-data sources such as Yahoo Finance, Stooq, Nasdaq pages, or Alpha Vantage free tier if the user supplies a key.
 
@@ -34,6 +35,7 @@ Macro, rates, and credit:
 Crypto and protocols:
 
 - Protocol documentation, official explorers, GitHub repositories, governance forums, tokenomics pages, and foundation/project disclosures.
+- Partner and ecosystem evidence from exchanges, custodians, wallets, bridges, foundation grant pages, governance proposals, public dashboards, developer repositories, and integration docs.
 - CoinGecko, CoinMarketCap, DefiLlama, Dune public dashboards, and exchange data as leads or market-data sources.
 
 Commodities and FX:
@@ -47,6 +49,14 @@ Options and market structure:
 Secondary research:
 
 - Use news, X, Substack, blogs, podcasts, and analyst notes to find leads, disagreements, and questions. Treat them as `secondary` unless corroborated by stronger evidence.
+
+## Partnership and Catalyst Source Rules
+
+For material partnerships, try to find evidence from both parties. If the target company announces a deal and the counterparty is silent, record that silence as a caveat.
+
+Prefer signed-contract evidence, filings, procurement records, revenue disclosures, backlog, usage metrics, qualification milestones, standards documents, or partner directories over press-release language.
+
+For catalysts, prefer dated primary sources: earnings calendars, SEC filing deadlines, court dockets, policy meeting calendars, unlock schedules, index methodology/rebalance calendars, protocol governance timelines, and company event pages.
 
 ## Source Selection Rules
 

@@ -20,13 +20,14 @@ Use only free or user-provided sources unless the user explicitly supplies paid 
 5. Build or update `evidence-ledger.csv` before making material claims.
 6. Run code-backed quantitative analysis when usable price data is available.
 7. Load only the reference files needed for the asset class and research question.
-8. Produce a concise chat executive summary with links to the dossier artifacts.
+8. For standard or deep work, explicitly test whether partnerships, ecosystem dependencies, bottlenecks, or catalysts are material to the thesis.
+9. Produce a concise chat executive summary with links to the dossier artifacts.
 
 ## Research Depths
 
 - `brief`: core identity, basic source check, basic price/return stats when available, key risks/catalysts, evidence gaps.
-- `standard`: full evidence ledger, quant profile, asset-appropriate fundamentals, valuation or implied expectations, scenarios, proof gates, market structure, monitoring triggers.
-- `deep`: broader source sweep, peer/comparable work, richer quant tests, historical analogs, disagreement analysis, valuation sensitivities, and a diligence queue.
+- `standard`: full evidence ledger, quant profile, asset-appropriate fundamentals, partnership/ecosystem check, valuation or implied expectations, scenarios, proof gates, market structure, monitoring triggers.
+- `deep`: broader source sweep, peer/comparable work, richer quant tests, historical analogs, partnership economics, bottleneck map, catalyst calendar, disagreement analysis, valuation sensitivities, and a diligence queue.
 
 Brief mode reduces claim count and source breadth. It does not relax citation or caveat standards.
 
@@ -91,7 +92,7 @@ Load references progressively:
 - `references/output-templates.md`: when creating reports, update memos, ledger rows, or chat summaries.
 - `references/source-playbook.md`: when choosing free sources or fallback sources.
 - `references/asset-class-playbooks.md`: when branching by asset class.
-- `references/research-lenses.md`: when applying bottleneck, catalyst, market-structure, macro, valuation, disagreement, or monitoring analysis.
+- `references/research-lenses.md`: when applying partnership/ecosystem, bottleneck, catalyst, market-structure, macro, valuation, disagreement, or monitoring analysis.
 - `references/evidence-ledger.md`: whenever claims, citations, confidence, or validation matter.
 
 ## Analysis Requirements
@@ -101,10 +102,11 @@ For standard or deep work, cover:
 - Asset identification and data availability.
 - Quant/statistical profile.
 - Asset-appropriate fundamental, structural, or protocol analysis.
+- Strategic partnerships, ecosystem dependencies, customer/supplier concentration, and bottleneck exposure when relevant.
 - Valuation or implied expectations when applicable.
 - Base, bull, and bear scenarios or asset-appropriate equivalents.
-- Proof gates and invalidation signals.
-- Catalysts and monitoring triggers.
+- Proof gates, invalidation signals, and catalyst quality.
+- Catalyst calendar and monitoring triggers.
 - Market-structure mechanics where relevant.
 - Macro sensitivity where relevant.
 - Disagreement ledger and unresolved diligence queue.
@@ -115,7 +117,7 @@ For standard or deep work, cover:
 When a dossier already exists:
 
 1. Read `analysis-manifest.json`, `asset-profile.json`, `source-registry.json`, and the latest report.
-2. Identify what changed since the last run: price, filings, earnings, macro data, news, source views, catalysts, proof gates, and watchlist triggers.
+2. Identify what changed since the last run: price, filings, earnings, macro data, news, partnerships, customer/supplier evidence, bottlenecks, source views, catalysts, proof gates, and watchlist triggers.
 3. Add new evidence rows instead of overwriting old rows.
 4. Write a dated update memo in `reports/`.
 5. Update `watchlist-triggers.yaml`, assumptions, limitations, and manifest timestamps.
@@ -128,7 +130,7 @@ Return a concise executive summary in chat:
 - Current decision framework.
 - Most important evidence.
 - Scenarios and what would change them.
-- Key risks, proof gates, and invalidation signals.
+- Key risks, partnerships/ecosystem dependencies, bottlenecks, proof gates, and invalidation signals.
 - Monitoring triggers.
 - Major data gaps and confidence level.
 - Links to the dossier, report, evidence ledger, charts, and data artifacts.

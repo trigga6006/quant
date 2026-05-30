@@ -37,13 +37,17 @@ research/
 
 ## Fundamental, Structural, or Protocol Analysis
 
+## Partnerships and Ecosystem Dependencies
+
+## Bottleneck and Constraint Map
+
 ## Valuation or Implied Expectations
 
 ## Scenarios
 
 ## Proof Gates and Invalidation Signals
 
-## Catalysts and Monitoring Plan
+## Catalyst Calendar and Monitoring Plan
 
 ## Market Structure
 
@@ -62,6 +66,8 @@ research/
 ## What Changed
 
 ## Evidence Added
+
+## Partnership, Ecosystem, and Bottleneck Changes
 
 ## Quantitative Changes
 
@@ -127,9 +133,11 @@ NVDA-001,Nvidia reported data center revenue for the quarter,NVDA,issuer,Nvidia 
 
 **Scenarios:** Base: <...>. Bull: <...>. Bear: <...>.
 
+**Partnerships and Bottlenecks:** <validated relationships, dependencies, constraints, and weak/unproven claims>
+
 **Proof Gates:** <events or data that would validate/invalidate>
 
-**Monitoring:** <what to watch and when>
+**Catalysts and Monitoring:** <dated events, quality grade, and what to watch after>
 
 **Confidence and Gaps:** <confidence level plus missing/stale data>
 

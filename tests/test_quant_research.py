@@ -16,6 +16,19 @@ SPEC.loader.exec_module(quant_research)
 
 
 class QuantResearchTests(unittest.TestCase):
+    def test_skill_contains_partnership_bottleneck_and_catalyst_frameworks(self):
+        root = SCRIPT_PATH.parents[1]
+        skill = (root / "SKILL.md").read_text(encoding="utf-8")
+        lenses = (root / "references" / "research-lenses.md").read_text(encoding="utf-8")
+        output_templates = (root / "references" / "output-templates.md").read_text(encoding="utf-8")
+
+        self.assertIn("Strategic partnerships, ecosystem dependencies", skill)
+        self.assertIn("Strategic Partnerships and Ecosystem Map", lenses)
+        self.assertIn("relationship_type", lenses)
+        self.assertIn("constraint | owner/controller", lenses)
+        self.assertIn("catalyst | type | date/window", lenses)
+        self.assertIn("Partnerships and Ecosystem Dependencies", output_templates)
+
     def test_init_dossier_creates_required_artifacts(self):
         with tempfile.TemporaryDirectory() as temp:
             dossier = quant_research.init_dossier("TEST", "equity", temp)

@@ -8,6 +8,60 @@ Ask what scarce input or constraint controls the outcome: supply, capacity, regu
 
 Then ask who captures the economics of relieving that constraint and whether the selected security is actually exposed to it.
 
+Build a bottleneck table for any material thesis:
+
+```text
+constraint | owner/controller | affected assets | beneficiary | evidence | durability | bypass risk | investable expression | proof gate | invalidation signal
+```
+
+Classify the bottleneck:
+
+- `structural`: hard to solve because of physics, regulation, capital intensity, patents, network effects, trust, geography, or time.
+- `cyclical`: driven by inventory, capacity, rates, funding, commodity cycle, or temporary demand/supply imbalance.
+- `narrative`: widely discussed but weakly supported by primary evidence.
+- `false`: real theme, wrong constraint, wrong beneficiary, or already bypassed.
+
+Pressure-test bypass risk. Ask whether technology substitution, regulation, customer insourcing, new capacity, open-source alternatives, vertical integration, or cheaper substitutes can erode the constraint before the thesis pays off.
+
+## Strategic Partnerships and Ecosystem Map
+
+Use this lens whenever the asset depends on customers, suppliers, distributors, hyperscalers, protocols, exchanges, channel partners, licensing, government awards, joint ventures, strategic investors, or named commercial relationships.
+
+Do not treat partnership press releases as proof. Classify each relationship:
+
+- `commercial`: purchase order, contracted revenue, usage-based revenue, backlog, take-or-pay, or renewal evidence.
+- `technical`: integration, qualification, certification, reference design, standard support, or developer adoption.
+- `distribution`: reseller, marketplace, cloud/channel access, exchange listing, custody access, broker platform, or geographic route-to-market.
+- `supply`: capacity reservation, long-term supply agreement, prepayment, exclusivity, or critical input access.
+- `financing`: strategic investment, loan, grant, prepayment, offtake financing, or balance-sheet support.
+- `regulatory/government`: award, approval, framework agreement, procurement vehicle, reimbursement, license, or policy support.
+- `marketing`: co-announcement, memorandum of understanding, non-binding pilot, logo slide, or vague collaboration.
+
+For each material partner, capture:
+
+```text
+partner | relationship_type | evidence_source | signed_or_nonbinding | economics_visible | exclusivity | duration | dependency | bargaining_power | revenue_path | proof_gate | risk
+```
+
+Key questions:
+
+- Is the partner named by both sides, or only by the target company?
+- Does the relationship include dollars, volumes, duration, exclusivity, milestones, or renewal terms?
+- Is there proof of production deployment, purchase orders, usage, backlog, revenue conversion, or customer qualification?
+- Who has bargaining power, and can the partner switch suppliers or build internally?
+- Does the partnership validate product-market fit, solve distribution, relieve a supply bottleneck, or merely create PR?
+- Does the relationship create concentration risk, margin pressure, working-capital needs, capex needs, or dilution risk?
+- Are there hidden dependencies on one customer, supplier, exchange, cloud, government program, protocol, or geography?
+
+Fluff filters:
+
+- Treat MOUs, pilots, "collaborations," conference demos, and logo slides as `unresolved` until supported by primary evidence.
+- If only one party announces the relationship, downgrade confidence unless corroborated.
+- If no economics are visible, state what evidence would make it material.
+- If the market is pricing a partnership as transformational, compare implied expectations with visible contractual evidence.
+
+Output a partnership verdict: `validated`, `promising_unproven`, `commercial_but_small`, `strategic_dependency`, `marketing_fluff`, or `negative_signal`.
+
 ## Right-Security Test
 
 For every thesis, compare the chosen security with alternatives:
@@ -26,9 +80,30 @@ Convert narratives into observable gates:
 - State what happens if the gate is met, delayed, or missed.
 - Mark watchlist ideas as watchlist ideas until gates are met.
 
+Use a gate table:
+
+```text
+gate | source_to_check | expected_timing | evidence_required | scenario_impact | status | next_check_date
+```
+
 ## Catalyst Map
 
 Separate scheduled catalysts from unscheduled catalysts. For each catalyst, capture expected date or window, source, likely market interpretation, upside/downside asymmetry, and data needed afterward.
+
+Grade catalyst quality:
+
+- `hard`: filing deadline, earnings date, maturity, unlock, index rebalance, court date, policy meeting, scheduled protocol upgrade.
+- `soft`: management target, expected customer decision, conference, product launch, macro release, industry data.
+- `rumored`: social/news chatter, unattributed reports, speculative M&A, unconfirmed partner activity.
+- `reflexive`: catalyst depends on price, flows, short squeeze, liquidity, or narrative attention.
+
+For each catalyst, record:
+
+```text
+catalyst | type | date/window | source | affected thesis leg | market_expectation | upside_case | downside_case | evidence_after_event | confidence
+```
+
+Ask whether the catalyst changes intrinsic value, accelerates proof, changes liquidity/market structure, or only changes attention. Attention-only catalysts must not carry the thesis without evidence.
 
 ## Quant Profile
 

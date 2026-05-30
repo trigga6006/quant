@@ -7,13 +7,16 @@ Start every run by identifying the instrument. Apply the matching section and do
 Required checks:
 
 - Business model, segments, geography, customers, suppliers, and competitive position.
+- Strategic partnerships, named customers, suppliers, distribution channels, ecosystem dependencies, and concentration risk.
 - Filings, earnings releases, investor decks, insider/institutional ownership when free.
 - Revenue, margins, cash flow, balance sheet, dilution risk, capital allocation, and guidance.
 - Price history, volatility, drawdown, liquidity, beta/correlation, and event windows.
 - Valuation: multiples, historical ranges, peer comparison, implied expectations, and DCF only when assumptions are supportable.
-- Proof gates: earnings beats/misses, guidance changes, customer wins, regulatory approvals, capacity additions, margin inflection, financing events.
+- Proof gates: earnings beats/misses, guidance changes, customer wins, partner validation, regulatory approvals, capacity additions, margin inflection, financing events.
 
 Common gaps: transcripts may be paywalled, segment details may be limited, peer data may be inconsistent, short interest may lag.
+
+Partnership checks: inspect both sides of any named relationship, distinguish signed commercial terms from pilots or marketing language, and look for revenue conversion, backlog, qualification, exclusivity, prepayments, or concentration risk.
 
 ## ETFs and Funds
 
@@ -31,10 +34,13 @@ Valuation focuses on underlying exposure and structure rather than issuer earnin
 Required checks:
 
 - Protocol purpose, token utility, supply schedule, unlocks, governance, security model, developer activity, liquidity, exchange support, and on-chain activity when free.
+- Ecosystem partners: exchanges, custodians, bridges, wallets, validators, developers, grants, market makers, foundations, and major integrations.
 - Quant profile using spot prices, volatility, drawdowns, correlations, and regime behavior.
 - Market structure: circulating supply, unlocks, staking, exchange reserves, liquidity, and protocol revenues where available.
 
 Valuation uses implied adoption, fees, flows, supply/demand, comparable protocols, and scenario analysis. Do not force equity-style multiples unless the metric is meaningful.
+
+Partnership checks: separate real integrations and usage from ecosystem announcements, grants, or exchange-listing hype. Confirm with protocol docs, repositories, governance posts, public dashboards, and the partner's own announcement when possible.
 
 ## Commodities
 
@@ -79,5 +85,5 @@ Required checks:
 
 - Define the situation, affected securities, timeline, decision points, and source of market mispricing.
 - Identify the cleanest expression and alternatives.
-- Map proof gates, invalidation signals, catalysts, and watchlist triggers.
+- Map proof gates, invalidation signals, catalysts, partnership/ecosystem dependencies, bottlenecks, and watchlist triggers.
 - Use source disagreement as a diligence queue.
