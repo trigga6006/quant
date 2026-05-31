@@ -7,6 +7,7 @@ import argparse
 import csv
 import json
 import math
+import os
 import statistics
 from dataclasses import dataclass
 from datetime import datetime, timezone
@@ -51,6 +52,8 @@ CORROBORATION_VALUES = {
     "unresolved",
 }
 
+DEFAULT_SHARED_RESEARCH_ROOT = Path("C:/Users/fowle/Documents/dev/OmniCapital/research")
+
 
 def utc_now() -> str:
     return datetime.now(timezone.utc).replace(microsecond=0).isoformat()
@@ -59,6 +62,15 @@ def utc_now() -> str:
 def safe_asset_name(asset: str) -> str:
     cleaned = "".join(ch if ch.isalnum() or ch in ("-", "_", ".") else "-" for ch in asset.strip())
     return cleaned.strip("-") or "asset"
+
+
+def default_research_root() -> str:
+    configured = os.environ.get("QUANT_RESEARCH_ROOT")
+    if configured:
+        return configured
+    if DEFAULT_SHARED_RESEARCH_ROOT.exists():
+        return str(DEFAULT_SHARED_RESEARCH_ROOT)
+    return "research"
 
 
 def init_dossier(asset: str, asset_type: str, root: str | Path = "research", depth: str = "standard") -> Path:
@@ -330,7 +342,7 @@ def build_parser() -> argparse.ArgumentParser:
     init_parser = subparsers.add_parser("init-dossier", help="Create a research dossier tree.")
     init_parser.add_argument("--asset", required=True)
     init_parser.add_argument("--asset-type", required=True)
-    init_parser.add_argument("--root", default="research")
+    init_parser.add_argument("--root", default=default_research_root())
     init_parser.add_argument("--depth", default="standard", choices=["brief", "standard", "deep"])
 
     ledger_parser = subparsers.add_parser("validate-ledger", help="Validate an evidence ledger CSV.")

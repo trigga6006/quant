@@ -33,7 +33,7 @@ Brief mode reduces claim count and source breadth. It does not relax citation or
 
 ## Required Dossier
 
-Create a living dossier under `research/<asset-or-situation>/` unless the user asks for a different path. Refresh runs must reuse existing state, ingest changes, append update memos, and preserve prior evidence.
+Create a living dossier under the configured research root. On this machine, default to `C:\Users\fowle\Documents\dev\OmniCapital\research\<asset-or-situation>\` so research output stays out of the skill-development repo. If the user explicitly asks for project-local research, use `research/<asset-or-situation>/` in the current workspace. Refresh runs must reuse existing state, ingest changes, append update memos, and preserve prior evidence.
 
 The standard dossier files are:
 
@@ -55,6 +55,12 @@ Use:
 
 ```bash
 python quant-research/scripts/quant_research.py init-dossier --asset NVDA --asset-type equity --root research
+```
+
+Prefer this shared root for normal use:
+
+```bash
+python quant-research/scripts/quant_research.py init-dossier --asset NVDA --asset-type equity --root C:/Users/fowle/Documents/dev/OmniCapital/research
 ```
 
 ## Evidence Rules
