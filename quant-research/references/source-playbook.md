@@ -60,6 +60,12 @@ Prefer signed-contract evidence, filings, procurement records, revenue disclosur
 
 For catalysts, prefer dated primary sources: earnings calendars, SEC filing deadlines, court dockets, policy meeting calendars, unlock schedules, index methodology/rebalance calendars, protocol governance timelines, and company event pages.
 
+## Serenity-Style Source Rules
+
+For news-to-alpha work, prioritize evidence that proves demand has already changed: filings, earnings-call commentary, backlog/order commentary, procurement portals, customer deployments, supplier lead times, pricing changes, channel checks, app/user metrics, production schedules, import/export data, and customer/supplier corroboration.
+
+Do not treat a viral story, executive quote, conference demo, or product announcement as alpha until the research identifies who gets paid, which financial line changes, and when public filings or calls can verify it.
+
 ## Crypto Free-Source Rules
 
 Use free sources and exported artifacts first. API keys are optional only if the user provides them. Do not require paid endpoints for a crypto run.

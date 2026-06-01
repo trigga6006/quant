@@ -23,6 +23,8 @@ Classify the bottleneck:
 
 Pressure-test bypass risk. Ask whether technology substitution, regulation, customer insourcing, new capacity, open-source alternatives, vertical integration, or cheaper substitutes can erode the constraint before the thesis pays off.
 
+When the bottleneck comes from news or a market-moving development, combine this lens with `serenity-alpha-workflow.md`: demand must be observable, financial transmission must be clear, and the candidate must be small/pure enough for the bottleneck to matter in reported results.
+
 ## Strategic Partnerships and Ecosystem Map
 
 Use this lens whenever the asset depends on customers, suppliers, distributors, hyperscalers, protocols, exchanges, channel partners, licensing, government awards, joint ventures, strategic investors, or named commercial relationships.

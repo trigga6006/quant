@@ -65,6 +65,32 @@ Use when the asset is a crypto token, protocol, smart contract, wallet, mint, DA
 
 ## Bottleneck and Constraint Map
 
+## Serenity-Style Alpha Translation
+
+Use when the thesis starts from news, procurement, product launches, technology shifts, supply-chain changes, or bottlenecks.
+
+```markdown
+## Surface News or Catalyst
+
+## Observed Demand Change
+
+## Financial-Statement Transmission
+
+## Beneficiary Chain
+
+## Small-Cap / High-Purity Candidates
+
+## Market Misclassification
+
+## Alpha Elasticity
+
+## 1-4 Quarter Validation Chain
+
+## Falsification and Downside Risk
+
+## Evidence-Conditioned Position Posture
+```
+
 ## Valuation or Implied Expectations
 
 ## Scenarios
@@ -160,6 +186,8 @@ NVDA-001,Nvidia reported data center revenue for the quarter,NVDA,issuer,Nvidia 
 **Crypto Contract / On-Chain:** <address confidence, security bucket, tokenomics bucket, on-chain forensic bucket, and major unresolved contract risks if relevant>
 
 **Partnerships and Bottlenecks:** <validated relationships, dependencies, constraints, and weak/unproven claims>
+
+**Serenity Alpha Lens:** <observed demand change, financial transmission, small/pure/misclassified beneficiary, and 1-4 quarter validation condition if relevant>
 
 **Proof Gates:** <events or data that would validate/invalidate>
 
