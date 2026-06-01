@@ -1,3 +1,3 @@
 display_name: Quant Research
-short_description: Evidence-ledger quant dossiers
-default_prompt: Analyze this asset or market situation with a free-source, evidence-first quantitative research workflow. Create or refresh a local dossier, cite material claims, run reproducible quant analysis where data is available, and return a concise decision-support summary with artifact links.
+short_description: Quant, crypto, and contract dossiers
+default_prompt: Analyze this asset, protocol, contract, or market situation with the quant-research workflow. Infer whether it is equity/ETF/macro or crypto/protocol/contract work; for crypto, use smart routing, address resolution, EVM/Solana checks, tokenomics, scam/rug screening, security review, on-chain forensics, and free-source evidence. Create or refresh the shared OmniCapital dossier, cite material claims, run reproducible analysis where artifacts are available, and return a concise decision-support summary with links.
