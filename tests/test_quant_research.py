@@ -21,6 +21,8 @@ class QuantResearchTests(unittest.TestCase):
         skill = (root / "SKILL.md").read_text(encoding="utf-8")
         lenses = (root / "references" / "research-lenses.md").read_text(encoding="utf-8")
         output_templates = (root / "references" / "output-templates.md").read_text(encoding="utf-8")
+        crypto_routing = (root / "references" / "crypto-smart-routing.md").read_text(encoding="utf-8")
+        crypto_playbook = (root / "references" / "crypto-contract-playbook.md").read_text(encoding="utf-8")
 
         self.assertIn("Strategic partnerships, ecosystem dependencies", skill)
         self.assertIn("Strategic Partnerships and Ecosystem Map", lenses)
@@ -28,6 +30,10 @@ class QuantResearchTests(unittest.TestCase):
         self.assertIn("constraint | owner/controller", lenses)
         self.assertIn("catalyst | type | date/window", lenses)
         self.assertIn("Partnerships and Ecosystem Dependencies", output_templates)
+        self.assertIn("Crypto Smart Routing", crypto_routing)
+        self.assertIn("Scam/rug", crypto_playbook)
+        self.assertIn("Cross-Chain Deployment Matrix", crypto_playbook)
+        self.assertIn("Smart Contract / Security Review", output_templates)
 
     def test_init_dossier_creates_required_artifacts(self):
         with tempfile.TemporaryDirectory() as temp:

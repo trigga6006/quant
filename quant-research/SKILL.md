@@ -15,13 +15,14 @@ Use only free or user-provided sources unless the user explicitly supplies paid 
 
 1. Classify the request as initial coverage, refresh, comparison, portfolio/watchlist work, event analysis, or focused follow-up.
 2. Identify the asset or situation: ticker/name, asset class, venue, currency, identifiers, relevant benchmark, and available free data.
-3. Choose depth: `brief`, `standard`, or `deep`. Default to `standard`.
-4. Create or update a local dossier with `scripts/quant_research.py init-dossier`.
-5. Build or update `evidence-ledger.csv` before making material claims.
-6. Run code-backed quantitative analysis when usable price data is available.
-7. Load only the reference files needed for the asset class and research question.
-8. For standard or deep work, explicitly test whether partnerships, ecosystem dependencies, bottlenecks, or catalysts are material to the thesis.
-9. Produce a concise chat executive summary with links to the dossier artifacts.
+3. Run the smart routing gate. If the prompt, asset, or discovered sources indicate a crypto token, protocol, smart contract, wallet, mint, transaction, DAO, DEX, pool, bridge, TVL, yield, airdrop, governance, or contract address, activate the crypto workflow. If it is a public equity, ETF, rate, macro, commodity, or non-crypto asset, do not load smart-contract references.
+4. Choose depth: `brief`, `standard`, or `deep`. Default to `standard`.
+5. Create or update a local dossier with `scripts/quant_research.py init-dossier`; for crypto/protocol/contract work also run `scripts/crypto_contract_research.py init-crypto-dossier`.
+6. Build or update `evidence-ledger.csv` before making material claims.
+7. Run code-backed quantitative analysis when usable price data is available.
+8. Load only the reference files needed for the asset class and research question.
+9. For standard or deep work, explicitly test whether partnerships, ecosystem dependencies, bottlenecks, or catalysts are material to the thesis.
+10. Produce a concise chat executive summary with links to the dossier artifacts.
 
 ## Research Depths
 
@@ -30,6 +31,12 @@ Use only free or user-provided sources unless the user explicitly supplies paid 
 - `deep`: broader source sweep, peer/comparable work, richer quant tests, historical analogs, partnership economics, bottleneck map, catalyst calendar, disagreement analysis, valuation sensitivities, and a diligence queue.
 
 Brief mode reduces claim count and source breadth. It does not relax citation or caveat standards.
+
+For crypto, depth also controls security intensity:
+
+- `brief`: scam/rug risk screen, address confidence, obvious admin powers, holder concentration when data is available, and major data gaps.
+- `standard`: investment diligence, tokenomics, deployment matrix, light contract/security review, on-chain basics, audit status, and protocol fundamentals.
+- `deep`: full crypto research workbench: investment diligence, smart-contract threat model, on-chain forensics, exploit-path reasoning, audit ingestion, tokenomics/unlocks, cross-chain deployments, wallet/entity heuristics, and proof gates.
 
 ## Required Dossier
 
@@ -99,6 +106,8 @@ Load references progressively:
 - `references/source-playbook.md`: when choosing free sources or fallback sources.
 - `references/asset-class-playbooks.md`: when branching by asset class.
 - `references/research-lenses.md`: when applying partnership/ecosystem, bottleneck, catalyst, market-structure, macro, valuation, disagreement, or monitoring analysis.
+- `references/crypto-smart-routing.md`: when deciding whether a vague prompt should activate crypto/protocol/contract analysis.
+- `references/crypto-contract-playbook.md`: when analyzing EVM or Solana contracts, protocol deployments, audits, scam/rug risk, tokenomics, or on-chain forensics.
 - `references/evidence-ledger.md`: whenever claims, citations, confidence, or validation matter.
 
 ## Analysis Requirements
@@ -154,3 +163,10 @@ python C:/Users/fowle/.codex/skills/.system/skill-creator/scripts/quick_validate
 ```
 
 If a check cannot run, report exactly why and what evidence was still inspected.
+
+For crypto/protocol/contract runs, also use:
+
+```bash
+python quant-research/scripts/crypto_contract_research.py init-crypto-dossier --asset AERO
+python quant-research/scripts/crypto_contract_research.py validate-address-registry --registry C:/Users/fowle/Documents/dev/OmniCapital/research/AERO/crypto/address-registry.csv
+```

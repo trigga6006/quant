@@ -35,12 +35,18 @@ Required checks:
 
 - Protocol purpose, token utility, supply schedule, unlocks, governance, security model, developer activity, liquidity, exchange support, and on-chain activity when free.
 - Ecosystem partners: exchanges, custodians, bridges, wallets, validators, developers, grants, market makers, foundations, and major integrations.
+- Smart routing: determine whether the user supplied a token symbol, protocol name, EVM contract address, Solana mint/program, wallet, transaction, pool, or bridge.
+- Contract/security review: verified source, ABI/IDL, proxy/upgradeability, admin powers, mint/freeze/pause/blacklist/fee controls, oracle/bridge/dependency risk, audit coverage, exploit history, and scam/rug risk screen.
+- On-chain forensics: holder concentration, deployer/admin behavior, treasury/multisig, whale flows, liquidity pools, suspicious transfers, privileged calls, and wallet/entity labels with confidence levels.
+- Cross-chain deployment matrix for all major deployments, including canonical/native, wrapped/bridged, L2, pool, staking, governance, and treasury addresses.
 - Quant profile using spot prices, volatility, drawdowns, correlations, and regime behavior.
 - Market structure: circulating supply, unlocks, staking, exchange reserves, liquidity, and protocol revenues where available.
 
 Valuation uses implied adoption, fees, flows, supply/demand, comparable protocols, and scenario analysis. Do not force equity-style multiples unless the metric is meaningful.
 
 Partnership checks: separate real integrations and usage from ecosystem announcements, grants, or exchange-listing hype. Confirm with protocol docs, repositories, governance posts, public dashboards, and the partner's own announcement when possible.
+
+Tokenomics checks: circulating/total/max supply, FDV, float, emissions, vesting, unlocks, team/investor allocation, treasury, incentives, staking yield source, value accrual, inflation, supply sinks, bridge/wrapped supply, mint authority, and sell-pressure calendar.
 
 ## Commodities
 

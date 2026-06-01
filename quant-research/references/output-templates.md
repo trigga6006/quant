@@ -37,6 +37,30 @@ research/
 
 ## Fundamental, Structural, or Protocol Analysis
 
+## Crypto Contract, Tokenomics, and On-Chain Analysis
+
+Use when the asset is a crypto token, protocol, smart contract, wallet, mint, DAO, pool, bridge, or yield product.
+
+```markdown
+## Protocol Identity and Address Resolution
+
+## Cross-Chain Deployment Matrix
+
+## Investment Diligence
+
+## Tokenomics, Emissions, and Unlocks
+
+## Smart Contract / Security Review
+
+## Scam and Rug Risk Screen
+
+## On-Chain Forensics
+
+## Audit Coverage
+
+## Crypto Risk Buckets
+```
+
 ## Partnerships and Ecosystem Dependencies
 
 ## Bottleneck and Constraint Map
@@ -132,6 +156,8 @@ NVDA-001,Nvidia reported data center revenue for the quarter,NVDA,issuer,Nvidia 
 **Evidence:** <3-5 sourced or computed points>
 
 **Scenarios:** Base: <...>. Bull: <...>. Bear: <...>.
+
+**Crypto Contract / On-Chain:** <address confidence, security bucket, tokenomics bucket, on-chain forensic bucket, and major unresolved contract risks if relevant>
 
 **Partnerships and Bottlenecks:** <validated relationships, dependencies, constraints, and weak/unproven claims>
 

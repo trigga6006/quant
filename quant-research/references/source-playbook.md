@@ -37,6 +37,8 @@ Crypto and protocols:
 - Protocol documentation, official explorers, GitHub repositories, governance forums, tokenomics pages, and foundation/project disclosures.
 - Partner and ecosystem evidence from exchanges, custodians, wallets, bridges, foundation grant pages, governance proposals, public dashboards, developer repositories, and integration docs.
 - CoinGecko, CoinMarketCap, DefiLlama, Dune public dashboards, and exchange data as leads or market-data sources.
+- EVM: Etherscan-family explorer pages, verified source, ABI, proxy/implementation pages, contract events, token holders, DEXScreener, GeckoTerminal, DefiLlama, CoinGecko, official docs, audit reports, and exploit writeups.
+- Solana: Solscan, SolanaFM, Solana Explorer, SPL mint metadata, program upgrade authority, Anchor IDL when available, token holder exports, governance pages, pool pages, audit reports, and exploit writeups.
 
 Commodities and FX:
 
@@ -57,6 +59,14 @@ For material partnerships, try to find evidence from both parties. If the target
 Prefer signed-contract evidence, filings, procurement records, revenue disclosures, backlog, usage metrics, qualification milestones, standards documents, or partner directories over press-release language.
 
 For catalysts, prefer dated primary sources: earnings calendars, SEC filing deadlines, court dockets, policy meeting calendars, unlock schedules, index methodology/rebalance calendars, protocol governance timelines, and company event pages.
+
+## Crypto Free-Source Rules
+
+Use free sources and exported artifacts first. API keys are optional only if the user provides them. Do not require paid endpoints for a crypto run.
+
+Prefer official docs, verified explorer pages, protocol repositories, governance forums, audit PDFs, DefiLlama, CoinGecko, DEXScreener, GeckoTerminal, and public dashboards. Record endpoint URLs, access time, raw artifact path, and caveats for every fetch or export.
+
+Never trust a contract address from a single search result. Corroborate with official docs, explorer labels, CoinGecko/DefiLlama, governance docs, or the project's own UI before treating it as canonical.
 
 ## Source Selection Rules
 
