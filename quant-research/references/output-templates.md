@@ -65,7 +65,7 @@ Use when the asset is a crypto token, protocol, smart contract, wallet, mint, DA
 
 ## Bottleneck and Constraint Map
 
-## Serenity-Style Alpha Translation
+## Demand Alpha Translation
 
 Use when the thesis starts from news, procurement, product launches, technology shifts, supply-chain changes, or bottlenecks.
 
@@ -187,7 +187,7 @@ NVDA-001,Nvidia reported data center revenue for the quarter,NVDA,issuer,Nvidia 
 
 **Partnerships and Bottlenecks:** <validated relationships, dependencies, constraints, and weak/unproven claims>
 
-**Serenity Alpha Lens:** <observed demand change, financial transmission, small/pure/misclassified beneficiary, and 1-4 quarter validation condition if relevant>
+**Demand Alpha Lens:** <observed demand change, financial transmission, small/pure/misclassified beneficiary, and 1-4 quarter validation condition if relevant>
 
 **Proof Gates:** <events or data that would validate/invalidate>
 

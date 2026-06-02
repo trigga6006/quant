@@ -13,7 +13,7 @@ Required checks:
 - Price history, volatility, drawdown, liquidity, beta/correlation, and event windows.
 - Valuation: multiples, historical ranges, peer comparison, implied expectations, and DCF only when assumptions are supportable.
 - Proof gates: earnings beats/misses, guidance changes, customer wins, partner validation, regulatory approvals, capacity additions, margin inflection, financing events.
-- Serenity-style alpha checks when relevant: separate narrative from observed demand, map demand into revenue/margin/cash-flow/balance-sheet lines, rank small pure beneficiaries, test market misclassification, and build a 1-4 quarter validation chain.
+- Demand-alpha checks when relevant: separate narrative from observed demand, map demand into revenue/margin/cash-flow/balance-sheet lines, rank small pure beneficiaries, test market misclassification, and build a 1-4 quarter validation chain.
 
 Common gaps: transcripts may be paywalled, segment details may be limited, peer data may be inconsistent, short interest may lag.
 

@@ -1,4 +1,4 @@
-# Serenity-Style Alpha Workflow
+# Demand Alpha Workflow
 
 Use this workflow when the user shares news, product launches, procurement signals, technology breakthroughs, supply-chain changes, earnings-call clues, bottleneck ideas, or asks for small-cap beneficiaries. The workflow converts a market-moving item into a testable hypothesis:
 
@@ -66,7 +66,7 @@ Use:
 alpha elasticity ~= incremental demand impact / current company scale
 ```
 
-Do not over-prioritize obvious mega-cap winners when the user is seeking Serenity-style alpha. Mega-caps may validate the theme, but smaller pure suppliers often carry more financial-statement elasticity.
+Do not over-prioritize obvious mega-cap winners when the user is seeking demand-alpha analysis. Mega-caps may validate the theme, but smaller pure suppliers often carry more financial-statement elasticity.
 
 ## 5. Test Market Misclassification
 
@@ -125,7 +125,7 @@ Frame posture as research guidance, not a personalized recommendation:
 
 ## Output Requirements
 
-For Serenity-style runs, include:
+For demand-alpha runs, include:
 
 - primary candidate and why it is most elastic;
 - observed demand change;

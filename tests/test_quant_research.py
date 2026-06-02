@@ -23,7 +23,7 @@ class QuantResearchTests(unittest.TestCase):
         output_templates = (root / "references" / "output-templates.md").read_text(encoding="utf-8")
         crypto_routing = (root / "references" / "crypto-smart-routing.md").read_text(encoding="utf-8")
         crypto_playbook = (root / "references" / "crypto-contract-playbook.md").read_text(encoding="utf-8")
-        serenity = (root / "references" / "serenity-alpha-workflow.md").read_text(encoding="utf-8")
+        demand_alpha = (root / "references" / "demand-alpha-workflow.md").read_text(encoding="utf-8")
 
         self.assertIn("Strategic partnerships, ecosystem dependencies", skill)
         self.assertIn("Strategic Partnerships and Ecosystem Map", lenses)
@@ -35,10 +35,10 @@ class QuantResearchTests(unittest.TestCase):
         self.assertIn("Scam/rug", crypto_playbook)
         self.assertIn("Cross-Chain Deployment Matrix", crypto_playbook)
         self.assertIn("Smart Contract / Security Review", output_templates)
-        self.assertIn("Serenity-Style Alpha Workflow", serenity)
-        self.assertIn("news -> observed demand change -> financial-statement transmission", serenity)
-        self.assertIn("alpha elasticity", serenity)
-        self.assertIn("1-4 quarter validation chain", serenity)
+        self.assertIn("Demand Alpha Workflow", demand_alpha)
+        self.assertIn("news -> observed demand change -> financial-statement transmission", demand_alpha)
+        self.assertIn("alpha elasticity", demand_alpha)
+        self.assertIn("1-4 quarter validation chain", demand_alpha)
 
     def test_init_dossier_creates_required_artifacts(self):
         with tempfile.TemporaryDirectory() as temp:

@@ -60,7 +60,7 @@ Prefer signed-contract evidence, filings, procurement records, revenue disclosur
 
 For catalysts, prefer dated primary sources: earnings calendars, SEC filing deadlines, court dockets, policy meeting calendars, unlock schedules, index methodology/rebalance calendars, protocol governance timelines, and company event pages.
 
-## Serenity-Style Source Rules
+## Demand Alpha Source Rules
 
 For news-to-alpha work, prioritize evidence that proves demand has already changed: filings, earnings-call commentary, backlog/order commentary, procurement portals, customer deployments, supplier lead times, pricing changes, channel checks, app/user metrics, production schedules, import/export data, and customer/supplier corroboration.
 
