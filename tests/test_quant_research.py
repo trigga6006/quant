@@ -40,6 +40,23 @@ class QuantResearchTests(unittest.TestCase):
         self.assertIn("alpha elasticity", demand_alpha)
         self.assertIn("1-4 quarter validation chain", demand_alpha)
 
+    def test_skill_contains_capital_structure_and_float_framework(self):
+        root = SCRIPT_PATH.parents[1]
+        skill = (root / "SKILL.md").read_text(encoding="utf-8")
+        capital = (root / "references" / "capital-structure-float-dynamics.md").read_text(encoding="utf-8")
+        output_templates = (root / "references" / "output-templates.md").read_text(encoding="utf-8")
+
+        self.assertIn("capital structure and float dynamics", skill.lower())
+        self.assertIn("Capital Structure and Float Dynamics", capital)
+        self.assertIn("ATM programs", capital)
+        self.assertIn("shelf registrations", capital)
+        self.assertIn("convertible notes", capital)
+        self.assertIn("high-interest debt", capital)
+        self.assertIn("structural_overhang", capital)
+        self.assertIn("toxic", capital)
+        self.assertIn("common equity", capital)
+        self.assertIn("Capital Structure and Float Dynamics", output_templates)
+
     def test_init_dossier_creates_required_artifacts(self):
         with tempfile.TemporaryDirectory() as temp:
             dossier = quant_research.init_dossier("TEST", "equity", temp)

@@ -10,6 +10,7 @@ Required checks:
 - Strategic partnerships, named customers, suppliers, distribution channels, ecosystem dependencies, and concentration risk.
 - Filings, earnings releases, investor decks, insider/institutional ownership when free.
 - Revenue, margins, cash flow, balance sheet, dilution risk, capital allocation, and guidance.
+- Capital structure and float dynamics: ATM programs, shelves, resale registrations, PIPEs, warrants, convertibles, lockups, free float, short interest, borrow, high-interest debt, covenants, interest burden, refinancing risk, and whether financing overhang caps common-equity appreciation.
 - Price history, volatility, drawdown, liquidity, beta/correlation, and event windows.
 - Valuation: multiples, historical ranges, peer comparison, implied expectations, and DCF only when assumptions are supportable.
 - Proof gates: earnings beats/misses, guidance changes, customer wins, partner validation, regulatory approvals, capacity additions, margin inflection, financing events.
@@ -18,6 +19,8 @@ Required checks:
 Common gaps: transcripts may be paywalled, segment details may be limited, peer data may be inconsistent, short interest may lag.
 
 Partnership checks: inspect both sides of any named relationship, distinguish signed commercial terms from pilots or marketing language, and look for revenue conversion, backlog, qualification, exclusivity, prepayments, or concentration risk.
+
+Capital structure checks: do not treat a promising company as a promising common stock until dilution capacity, debt service, lockups, and selling overhang are mapped. A good operating thesis can still be a bad equity setup if the financing structure transfers upside away from common holders.
 
 ## ETFs and Funds
 

@@ -125,6 +125,8 @@ Use asset-specific mechanics:
 
 Market structure is an overlay. It should not become the thesis unless the situation is explicitly market-structure driven.
 
+For equities with ATMs, shelves, convertibles, warrants, PIPEs, lockups, or high-interest debt, load `capital-structure-float-dynamics.md` and decide whether market structure is merely an overlay or the main reason common-equity upside is capped.
+
 ## Macro Sensitivity
 
 Map sensitivity to rates, inflation, FX, commodities, credit spreads, liquidity, fiscal policy, regulation, geopolitics, and risk appetite.

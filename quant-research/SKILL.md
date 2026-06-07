@@ -21,15 +21,15 @@ Use only free or user-provided sources unless the user explicitly supplies paid 
 6. Build or update `evidence-ledger.csv` before making material claims.
 7. Run code-backed quantitative analysis when usable price data is available.
 8. Load only the reference files needed for the asset class and research question.
-9. For standard or deep work, explicitly test whether partnerships, ecosystem dependencies, bottlenecks, or catalysts are material to the thesis.
+9. For standard or deep work, explicitly test whether partnerships, ecosystem dependencies, bottlenecks, catalysts, capital structure, financing overhang, or float dynamics are material to the thesis.
 10. When the prompt includes news, product launches, procurement signals, technology shifts, supply-chain changes, earnings-call clues, or asks for small-cap beneficiaries, apply the demand-alpha workflow: news -> observed demand change -> financial-statement transmission -> alpha elasticity -> validation path.
 11. Produce a concise chat executive summary with links to the dossier artifacts.
 
 ## Research Depths
 
 - `brief`: core identity, basic source check, basic price/return stats when available, key risks/catalysts, evidence gaps.
-- `standard`: full evidence ledger, quant profile, asset-appropriate fundamentals, partnership/ecosystem check, valuation or implied expectations, scenarios, proof gates, market structure, monitoring triggers.
-- `deep`: broader source sweep, peer/comparable work, richer quant tests, historical analogs, partnership economics, bottleneck map, catalyst calendar, disagreement analysis, valuation sensitivities, and a diligence queue.
+- `standard`: full evidence ledger, quant profile, asset-appropriate fundamentals, partnership/ecosystem check, capital structure and float dynamics, valuation or implied expectations, scenarios, proof gates, market structure, monitoring triggers.
+- `deep`: broader source sweep, peer/comparable work, richer quant tests, historical analogs, partnership economics, bottleneck map, financing-structure stress test, float/overhang map, catalyst calendar, disagreement analysis, valuation sensitivities, and a diligence queue.
 
 Brief mode reduces claim count and source breadth. It does not relax citation or caveat standards.
 
@@ -107,6 +107,7 @@ Load references progressively:
 - `references/source-playbook.md`: when choosing free sources or fallback sources.
 - `references/asset-class-playbooks.md`: when branching by asset class.
 - `references/research-lenses.md`: when applying partnership/ecosystem, bottleneck, catalyst, market-structure, macro, valuation, disagreement, or monitoring analysis.
+- `references/capital-structure-float-dynamics.md`: when analyzing equities, capital-intensive companies, small caps, recent IPOs/SPACs, companies with ATMs/shelves/convertibles/warrants/high-interest debt, or any situation where common-equity upside may be diluted or structurally capped.
 - `references/crypto-smart-routing.md`: when deciding whether a vague prompt should activate crypto/protocol/contract analysis.
 - `references/crypto-contract-playbook.md`: when analyzing EVM or Solana contracts, protocol deployments, audits, scam/rug risk, tokenomics, or on-chain forensics.
 - `references/demand-alpha-workflow.md`: when translating news, product launches, procurement signals, bottlenecks, supply-chain shifts, or technology adoption into investable alpha hypotheses and 1-4 quarter validation chains.
@@ -120,6 +121,7 @@ For standard or deep work, cover:
 - Quant/statistical profile.
 - Asset-appropriate fundamental, structural, or protocol analysis.
 - Strategic partnerships, ecosystem dependencies, customer/supplier concentration, and bottleneck exposure when relevant.
+- Capital structure, financing terms, debt burden, dilution path, float dynamics, and common-equity overhang when relevant.
 - Demand-to-financial-statement transmission, small-cap elasticity, market misclassification, and validation chain when the thesis is news/catalyst/bottleneck driven.
 - Valuation or implied expectations when applicable.
 - Base, bull, and bear scenarios or asset-appropriate equivalents.
@@ -148,7 +150,7 @@ Return a concise executive summary in chat:
 - Current decision framework.
 - Most important evidence.
 - Scenarios and what would change them.
-- Key risks, partnerships/ecosystem dependencies, bottlenecks, proof gates, and invalidation signals.
+- Key risks, partnerships/ecosystem dependencies, bottlenecks, capital-structure/float overhangs, proof gates, and invalidation signals.
 - Monitoring triggers.
 - Major data gaps and confidence level.
 - Links to the dossier, report, evidence ledger, charts, and data artifacts.

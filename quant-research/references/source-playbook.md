@@ -48,6 +48,10 @@ Options and market structure:
 
 - Official option chain pages, OCC resources, exchange pages, SEC filings for dilution, company shelf/ATM filings, short-interest pages, fund flow pages, and public ownership data.
 
+Capital structure and float dynamics:
+
+- SEC S-1, S-3, F-3, 424B, 10-K, 10-Q, 8-K, 20-F, 6-K, prospectus supplements, ATM sales agreements, equity distribution agreements, resale registration statements, PIPE agreements, warrant agreements, convertible indentures, credit agreements, covenant summaries, lockup agreements, beneficial ownership tables, transfer-agent share counts, short-interest reports, borrow data where free, and investor presentations.
+
 Secondary research:
 
 - Use news, X, Substack, blogs, podcasts, and analyst notes to find leads, disagreements, and questions. Treat them as `secondary` unless corroborated by stronger evidence.

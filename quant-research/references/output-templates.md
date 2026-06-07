@@ -65,6 +65,26 @@ Use when the asset is a crypto token, protocol, smart contract, wallet, mint, DA
 
 ## Bottleneck and Constraint Map
 
+## Capital Structure and Float Dynamics
+
+Use for equities, recent IPOs/SPACs, capital-intensive businesses, and companies with ATMs, shelves, convertibles, warrants, PIPEs, lockups, high-interest debt, or heavy insider/VC overhang.
+
+```markdown
+## Current Capital Stack
+
+## Dilution Capacity and Path
+
+## Debt, Interest Burden, and Covenants
+
+## Float, Lockups, and Selling Overhang
+
+## Financing Quality Bucket
+
+## Common-Equity Appreciation Risk
+
+## Overhang Clearing Conditions
+```
+
 ## Demand Alpha Translation
 
 Use when the thesis starts from news, procurement, product launches, technology shifts, supply-chain changes, or bottlenecks.
@@ -186,6 +206,8 @@ NVDA-001,Nvidia reported data center revenue for the quarter,NVDA,issuer,Nvidia 
 **Crypto Contract / On-Chain:** <address confidence, security bucket, tokenomics bucket, on-chain forensic bucket, and major unresolved contract risks if relevant>
 
 **Partnerships and Bottlenecks:** <validated relationships, dependencies, constraints, and weak/unproven claims>
+
+**Capital Structure / Float:** <financing quality bucket, dilution path, debt burden, float/lockup overhang, and what must clear for common equity to benefit>
 
 **Demand Alpha Lens:** <observed demand change, financial transmission, small/pure/misclassified beneficiary, and 1-4 quarter validation condition if relevant>
 
